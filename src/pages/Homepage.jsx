@@ -6,6 +6,7 @@ import Awards from "../parts/Homepage/Awards";
 import About from "../parts/Homepage/About";
 import Metrics from "../parts/Homepage/Metrics";
 import Services from "../parts/Homepage/Services";
+import Works from "../parts/Homepage/Works";
 
 export default function Homepage() {
   return (
@@ -16,6 +17,7 @@ export default function Homepage() {
       <About />
       <Metrics />
       <Services />
+      <Works />
     </>
   );
 }
