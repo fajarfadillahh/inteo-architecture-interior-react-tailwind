@@ -7,6 +7,7 @@ import About from "../parts/Homepage/About";
 import Metrics from "../parts/Homepage/Metrics";
 import Services from "../parts/Homepage/Services";
 import Works from "../parts/Homepage/Works";
+import Footer from "../components/Footer";
 
 export default function Homepage() {
   return (
@@ -18,6 +19,7 @@ export default function Homepage() {
       <Metrics />
       <Services />
       <Works />
+      <Footer />
     </>
   );
 }
