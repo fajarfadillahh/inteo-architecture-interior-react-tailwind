@@ -5,8 +5,8 @@ export default function Footer() {
   return (
     <footer className="footer pt-32 pb-8">
       <div className="footer__container container grid gap-24">
-        <div className="footer__group grid gap-12">
-          <div className="footer__data">
+        <div className="footer__group grid gap-12 md:flex md:items-start md:justify-between">
+          <div className="footer__data sm:max-w-lg lg:max-w-3xl">
             <h1 className="footer__data-title section-title">
               Kick start your dreams home with us
             </h1>
