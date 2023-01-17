@@ -9,7 +9,7 @@ export default function Metrics() {
             <h3 className="metrics__content-number font-serif text-[48px] font-semibold text-black">
               100%
             </h3>
-            <p className="metrics__content-text text-[15px] uppercase text-gray-600">
+            <p className="metrics__content-text uppercase text-gray-600">
               Satisfition <br />
               cliens
             </p>
@@ -19,7 +19,7 @@ export default function Metrics() {
             <h3 className="metrics__content-number font-serif text-[48px] font-semibold text-black">
               299+
             </h3>
-            <p className="metrics__content-text text-[15px] uppercase text-gray-600">
+            <p className="metrics__content-text uppercase text-gray-600">
               Employess on <br />
               world
             </p>
@@ -29,7 +29,7 @@ export default function Metrics() {
             <h3 className="metrics__content-number font-serif text-[48px] font-semibold text-black">
               295+
             </h3>
-            <p className="metrics__content-text text-[15px] uppercase text-gray-600">
+            <p className="metrics__content-text uppercase text-gray-600">
               Projects <br />
               completes
             </p>
