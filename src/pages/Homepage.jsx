@@ -5,6 +5,7 @@ import Hero from "../parts/Homepage/Hero";
 import Awards from "../parts/Homepage/Awards";
 import About from "../parts/Homepage/About";
 import Metrics from "../parts/Homepage/Metrics";
+import Services from "../parts/Homepage/Services";
 
 export default function Homepage() {
   return (
@@ -14,6 +15,7 @@ export default function Homepage() {
       <Awards />
       <About />
       <Metrics />
+      <Services />
     </>
   );
 }
