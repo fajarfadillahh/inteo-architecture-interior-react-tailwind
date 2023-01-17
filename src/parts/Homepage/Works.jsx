@@ -3,6 +3,7 @@ import React from "react";
 import WorkImg1 from "../../assets/images/works-img-(1).png";
 import WorkImg2 from "../../assets/images/works-img-(2).png";
 import WorkImg3 from "../../assets/images/works-img-(3).png";
+import Button from "../../components/Button";
 
 export default function Works() {
   return (
@@ -82,6 +83,10 @@ export default function Works() {
             </div>
           </div>
         </div>
+
+        <Button url="/contact-us" className="inline-flex justify-self-start">
+          Contact us
+        </Button>
       </div>
     </section>
   );
