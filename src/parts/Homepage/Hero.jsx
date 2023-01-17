@@ -5,12 +5,12 @@ import HeroImgBtn from "../../assets/images/hero-button.svg";
 
 export default function Hero() {
   return (
-    <section className="hero pt-32">
+    <section className="hero pt-32 lg:pt-40">
       <div className="hero__wrapper grid gap-16">
         <div className="hero__container container">
-          <div className="hero__data text-center">
-            <h1 className="hero__title section-title">
-              make your home comfortable <br /> and elegant
+          <div className="hero__data text-center sm:mx-auto sm:max-w-md md:max-w-xl lg:max-w-2xl">
+            <h1 className="hero__title section-title md:text-[52px] lg:text-[58px]">
+              make your home cozy and elegant
             </h1>
             <p className="hero__text section-text">
               We turn your empty house to a lovely home, making the compact
@@ -21,7 +21,7 @@ export default function Hero() {
         </div>
 
         <div className="hero__overlay relative h-[640px]">
-          <button className="hero__overlay-button absolute left-1/2 -top-[60px] w-[120px] -translate-x-1/2">
+          <button className="hero__overlay-button absolute left-1/2 -top-[60px] w-[120px] -translate-x-1/2 lg:left-[15%]">
             <img src={HeroImgBtn} alt="hero btn" />
           </button>
 
