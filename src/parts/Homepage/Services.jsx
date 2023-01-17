@@ -8,7 +8,7 @@ export default function Services() {
   return (
     <section className="services section">
       <div className="services__container container grid gap-12">
-        <div className="services__data">
+        <div className="services__data sm:max-w-lg lg:max-w-3xl">
           <p className="services__subtitle section-subtitle">
             <div className="section-line"></div>
             Our Services

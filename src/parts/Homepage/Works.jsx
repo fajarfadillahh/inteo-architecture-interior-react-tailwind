@@ -9,7 +9,7 @@ export default function Works() {
   return (
     <section className="works section">
       <div className="works__container container grid gap-12">
-        <div className="works__data">
+        <div className="works__data sm:max-w-lg lg:max-w-3xl">
           <div className="works__subtitle section-subtitle">
             <div className="section-line"></div>
             Recent work
