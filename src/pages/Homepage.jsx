@@ -8,6 +8,7 @@ import Metrics from "../parts/Homepage/Metrics";
 import Services from "../parts/Homepage/Services";
 import Works from "../parts/Homepage/Works";
 import Footer from "../components/Footer";
+import ScrollUp from "../components/ScrollUp";
 
 export default function Homepage() {
   return (
@@ -20,6 +21,7 @@ export default function Homepage() {
       <Services />
       <Works />
       <Footer />
+      <ScrollUp />
     </>
   );
 }
